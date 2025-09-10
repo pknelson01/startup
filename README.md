@@ -5,18 +5,6 @@
 PennyWise is a personal budget generator. Input all Income and Assets as well as your Expenses and Debt and it will display all this information for you in a clean and aesthetic way. It will show you how much money you have left over after all expenses are paid. It will allow you to configure the fields in both Assets and Expenses and add limits to the field so that when you enter your current expenses it will show you where you are over and under budget. Once all the necessary information is inserted, it will generate a monthly budget starting with the current month and going 12-months into the future (considering adding a payoff calculator for the debts.)
 
 
-## 🚀 Specification Deliverable
-
-> [!NOTE]
->  Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
-
-For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
-
-- [x] Proper use of Markdown
-- [x] A concise and compelling elevator pitch
-- [x] Description of key features
-- [x] Description of how you will use each technology
-- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
@@ -41,9 +29,12 @@ Meet PennyWise, your smart personal budget generator. Simply enter your income, 
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Uses correct HTML structure for PennyWise.
-- **CSS** - PennyWise will look good on different screen sizes and browsers.
-- **React** - Provides login and displays results
+- **HTML** - PennyWise will utilize modern HTML structures and practices. 
+- **CSS** - PennyWise will be a clean and simple dashboard that embraces open space rather than crowding the page with useless information. The graphs will be animated as they generate and the buttons will have a click animation to immerse the user into the experience. 
+- **React:** 
+  - Will be used to break up PennyWise into reusable components so that everything feels interconnected. 
+  - Quicker updates using Virtual DOM. Instead of reloading the entire page for a small update, it will just update that small portion. 
+  - State Management
 - **Service** - backend server with end-points for:
   - Storing user input (login, logout, and persistent data).
   - Communicating with third-party apps that generate user graphs. 

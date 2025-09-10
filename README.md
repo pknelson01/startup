@@ -44,7 +44,9 @@ I am going to use the required technologies in the following ways.
 - **HTML** - Uses correct HTML structure for PennyWise.
 - **CSS** - PennyWise will look good on different screen sizes and browsers.
 - **React** - Provides login and displays results
-- **Service** - 
+- **Service** - backend server with end-points for:
+  - Storing user input (login, logout, and persistent data).
+  - Communicating with third-party apps that generate user graphs. 
 - **DB/Login** - Stores Users and their financial information. 
 - **WebSocket** - If the user permits, their personal budget can be shared with other users. 
 

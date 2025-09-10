@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-PennyWise is a personal budget generator. Input all Income and Assets as well as your Expenses and Debt and it will display all this information for you in a clean and aesthetic way. It will show you how much money you have left over after all expenses are paid. 
+PennyWise is a personal budget generator. Input all Income and Assets as well as your Expenses and Debt and it will display all this information for you in a clean and aesthetic way. It will show you how much money you have left over after all expenses are paid. It will allow you to configure the fields in both Assets and Expenses and add limits to the field so that when you enter your current expenses it will show you where you are over and under budget. Once all the necessary information is inserted, it will generate a monthly budget starting with the current month and going 12-months into the future (considering adding a payoff calculator for the debts.)
 
 
 ## 🚀 Specification Deliverable
@@ -12,45 +12,41 @@ PennyWise is a personal budget generator. Input all Income and Assets as well as
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Meet PennyWise, your smart personal budget generator. Simply enter your income, assets, expenses, and debts, and PennyWise instantly organizes your finances in a clean, intuitive dashboard. It shows you exactly how much you have left after paying expenses, where you’re over or under budget, and even projects a 12-month budget tailored to you. With customizable fields, spending limits, and a built-in debt payoff calculator, PennyWise doesn’t just track your money—it helps you take control of it.
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](PennyWise-FrontPage-2.jpg)
+![Design image](PennyWise-Report-3.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Sequence Diagram
 
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+![Design image](SequenceDiagram-4.jpg)
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Budget Generation
+- Financial Report
+- Loan Payoff Calculator
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses correct HTML structure for PennyWise.
+- **CSS** - PennyWise will look good on different screen sizes and browsers.
+- **React** - Provides login and displays results
+- **Service** - 
+- **DB/Login** - Stores Users and their financial information. 
+- **WebSocket** - If the user permits, their personal budget can be shared with other users. 
 
 ## 🚀 AWS deliverable
 
